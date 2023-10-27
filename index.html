@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema 7</title>
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div
+        class="navigation-bar d-flex justify-content-between align-items-center justify-content-center"
+      >
+        <!-- logo -->
+        <div class="d-flex">
+          <div class="d-md-none">
+            <div class="d-flex">
+              <i class="bi bi-geo-alt-fill custom-icon"></i>
+              <div class="d-flex flex-column mt-2 justify-content-center">
+                <h1 class="font-weight-bold">Lorem.logo</h1>
+                <p style="font-size: 0.7rem">Lorem ipsum, dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- iconite -->
+        <div class="d-flex">
+          <div class="d-lg-none">
+            <i class="bi bi-calendar2-week custom-icon2 mx-2"></i>
+            <p class="d-none d-md-inline text-primary text-center">Calendar</p>
+          </div>
+          <div class="d-lg-none">
+            <i class="bi bi-journal-medical custom-icon2 mx-2"></i>
+            <p class="d-none d-md-inline text-primary text-center">Objects</p>
+          </div>
+          <div class="d-lg-none">
+            <i
+              class="bi bi-person-exclamation custom-icon2 mx-2 d-none d-md-inline"
+            ></i>
+            <p class="d-none d-md-inline text-primary text-center">
+              My account
+            </p>
+          </div>
+          <div class="d-lg-none">
+            <i
+              class="bi bi-box-arrow-right custom-icon2 mx-2 d-none d-md-inline"
+            ></i>
+            <p class="d-none d-md-inline text-primary text-center">Logout</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- linia -->
+      <hr class="d-lg-none" style="height: 0.1rem; background-color: black" />
+
+      <!-- alea 3 squares -->
+      <div class="d-flex align-items-center justify-content-center">
+        <!-- logo - care apare pe tableta -->
+        <div class="d-flex">
+          <div class="d-none d-md-block">
+            <div class="d-flex">
+              <i class="bi bi-geo-alt-fill custom-icon"></i>
+              <div class="d-flex flex-column mt-2 justify-content-center">
+                <h1 class="font-weight-bold">Lorem.logo</h1>
+                <p style="font-size: 0.7rem">Lorem ipsum, dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column padding-squares">
+          <div class="d-none d-md-block">
+            <div class="d-flex flex-column">
+              <div class="d-flex justify-content-center">
+                <i class="bi bi-caret-left-fill mx-2 mt-1"></i>
+                <p class="calendar-tablet">October 2021</p>
+                <i class="bi bi-caret-right-fill mx-2"></i>
+              </div>
+              <div class="d-flex align-items-center border my-2 p-2">
+                <i class="bi bi-search mx-2"></i>
+                <div class="search-bar2">Search events</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 squares -->
+        <div class="p-3 border border-primary rounded mx-2 text-primary">
+          TODAY
+        </div>
+        <div
+          class="p-3 border border-primary rounded mx-2 bg-primary text-white"
+        >
+          MONTH
+        </div>
+        <div class="p-3 border border-primary rounded mx-2 text-primary">
+          WEEK
+        </div>
+      </div>
+
+      <!-- calendar -->
+      <div class="d-flex flex-column mt-4">
+        <div class="d-md-none">
+          <div class="d-flex flex-column">
+            <div class="d-flex justify-content-center">
+              <i class="bi bi-caret-left-fill mx-2 mt-2"></i>
+              <p style="font-size: 1.5rem">October 2021</p>
+              <i class="bi bi-caret-right-fill mx-2 mt-2"></i>
+            </div>
+            <div class="d-flex align-items-center border my-2 p-2">
+              <i class="bi bi-search mx-2"></i>
+              <div>Search events</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <div class="d-none d-lg-block">
+          <div class="d-flex flex-column">
+            <div class="d-lg-block">
+              <div class="d-flex flex-column">
+                <i class="bi bi-calendar2-week custom-icon2 mx-2"></i>
+                <p class="d-none d-md-inline text-primary">Calendar</p>
+              </div>
+            </div>
+            <div class="d-lg-block">
+              <div class="d-flex flex-column">
+                <i class="bi bi-journal-medical custom-icon2 mx-2"></i>
+                <p class="d-none d-md-inline text-primary">Objects</p>
+              </div>
+            </div>
+            <div class="d-lg-block">
+              <div class="d-flex flex-column">
+                <i
+                  class="bi bi-person-exclamation custom-icon2 mx-2 d-none d-md-inline"
+                ></i>
+                <p class="d-none d-md-inline text-primary">My account</p>
+              </div>
+            </div>
+            <div class="d-lg-block">
+              <div class="d-flex flex-column">
+                <i
+                  class="bi bi-box-arrow-right custom-icon2 mx-2 d-none d-md-inline"
+                ></i>
+                <p class="d-none d-md-inline text-primary">Logout</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-3 d-lg-block d-none mx-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+          tenetur reprehenderit quidem voluptas mollitia placeat dolore
+          incidunt, voluptatem accusantium impedit, a fuga ad commodi corrupti
+          laborum aspernatur possimus maxime amet?
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-3 d-lg-none mx-3">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit tenetur
+      reprehenderit quidem voluptas mollitia placeat dolore incidunt, voluptatem
+      accusantium impedit, a fuga ad commodi corrupti laborum aspernatur
+      possimus maxime amet?
+    </p>
+
+    <!-- lorem -->
+  </body>
+</html>
